@@ -247,7 +247,7 @@ a {
   position: absolute;
   right: 22px;
   top: 0;
-  width: 30px;
+  width: 10px;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
@@ -284,7 +284,7 @@ a {
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
