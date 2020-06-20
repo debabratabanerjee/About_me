@@ -1,0 +1,43 @@
+.innerhint {
+  background: #09c999;
+  padding: 1em;
+  border-radius: 10px;
+  width: 250px;
+  -webkit-clip-path: circle(10% at 90% 20%);
+          clip-path: circle(10% at 90% 20%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  float: left;
+}
+
+.innerhint:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  background: #00B6FF;
+}
+
+.innerhint h1 {
+  color: white;
+  margin: 0;
+}
+
+.innerhint p {
+  color: white;
+  font-size: .8rem;
+}
+
+.innerhint span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-right: 4%;
+}
+
+.innerhint:hover span {
+  color: rgba(255, 255, 255, 0);
+}
+/*# sourceMappingURL=hint.css.map */

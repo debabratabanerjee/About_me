@@ -2,6 +2,15 @@
 
 /*******Filtering*******/
 
+// Page Loader
+
+/* Page Loader js 
+$(window).load(function() {
+  // Animate loader off screen
+  $(".se-pre-con").fadeOut("slow");;
+}); */
+
+
 // init Isotope
   var $grid = $('.img-grid').isotope({
     itemSelector: '.img-container',
@@ -116,6 +125,16 @@ $('.mobile-toggle').click(function(){
     $('#main-header').addClass('open-nav');
   }
 });
+/*
+$('.mobile-toggle').on('click',function(e) {
+  var menu_opened = $('#main-header').hasClass('open-nav');
+
+  if (!$(e.target).closet('#main-header').length &&
+      !$(e.target).is('#main-header') &&
+      menu_opened == true) {
+        $('#main-header').collapse('.mobile-toggle') 
+      }
+}) */
 
 /*******************************************NAV SCROLL*******************************************/
 $('nav a').click(function(event) {
